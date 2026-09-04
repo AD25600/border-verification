@@ -1,0 +1,18 @@
+# Backend
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.db
+alembic/versions/__pycache__/
+
+# Frontend
+node_modules/
+.next/
+out/
+.env.local
+
+# General
+.DS_Store
+*.log
