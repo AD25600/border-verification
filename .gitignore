@@ -16,3 +16,6 @@ out/
 # General
 .DS_Store
 *.log
+
+# Dataset / test images
+/backend/test_data/
