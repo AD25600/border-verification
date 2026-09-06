@@ -12,12 +12,12 @@ logger = get_logger(__name__)
 app = FastAPI(
     title=settings.APP_NAME,
     description=(
-        "Foundation API for the AI-Powered Border Checkpoint & Travel Document "
-        "Verification Platform. Phase 1: authentication, RBAC, users, and "
-        "checkpoints only. AI modules (OCR, MRZ, face verification, tamper "
-        "detection, risk engine) are added in later phases."
+        "AI-Powered Border Checkpoint & Travel Document Verification Platform. "
+        "Includes authentication, RBAC, users, checkpoints, and the document "
+        "verification pipeline (YOLO detection, OCR, MRZ parsing, tampering "
+        "detection, and XGBoost risk scoring, plugged in via app/ml/registry.py)."
     ),
-    version="0.1.0",
+    version="0.2.0",
 )
 
 app.add_middleware(
