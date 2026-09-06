@@ -1,0 +1,9 @@
+{
+  "ocr_field_count": 52.55763626098633,
+  "document_type_confidence": 49.28187561035156,
+  "ocr_average_confidence": 31.149545669555664,
+  "tampering_indicator_count": 12.135165214538574,
+  "tampering_anomaly_score": 12.018838882446289,
+  "mrz_all_checksums_valid": 5.747633457183838,
+  "mrz_checksum_failure_count": 3.0785138607025146
+}
